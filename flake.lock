@@ -318,17 +318,16 @@
         "stackage": "stackage"
       },
       "locked": {
+        "dirtyRev": "663345afcc9c6b077f95d006d60a5c136e8ee914-dirty",
+        "dirtyShortRev": "663345af-dirty",
         "lastModified": 1710463793,
-        "narHash": "sha256-NmmWYOtJSlbC1i1h0k2H423PCCnR+gKQ5JaZbsWzvFs=",
-        "owner": "input-output-hk",
-        "repo": "haskell.nix",
-        "rev": "663345afcc9c6b077f95d006d60a5c136e8ee914",
-        "type": "github"
+        "narHash": "sha256-oPkP0tg5b/JABhAbXIXfXlqaI/zwYvo+G1YzAfMSvys=",
+        "type": "git",
+        "url": "file:///Users/jloos/Developer/freelance-copilot/haskell-nix"
       },
       "original": {
-        "owner": "input-output-hk",
-        "repo": "haskell.nix",
-        "type": "github"
+        "type": "git",
+        "url": "file:///Users/jloos/Developer/freelance-copilot/haskell-nix"
       }
     },
     "hls-1.10": {
