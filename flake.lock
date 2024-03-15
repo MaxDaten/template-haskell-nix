@@ -318,8 +318,8 @@
         "stackage": "stackage"
       },
       "locked": {
-        "lastModified": 1710472857,
-        "narHash": "sha256-3GAIIEHyh3SDVJp/p4IE+LyjJ9+HARMRdBurmSy8sr8=",
+        "lastModified": 1710473078,
+        "narHash": "sha256-MrUegWPs1XbIS+IPFlwFJZZoG5TqlkOSbnq7I/HQsFs=",
         "path": "/Users/jloos/Developer/freelance-copilot/haskell-nix",
         "type": "path"
       },
