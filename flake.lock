@@ -321,7 +321,7 @@
         "dirtyRev": "663345afcc9c6b077f95d006d60a5c136e8ee914-dirty",
         "dirtyShortRev": "663345af-dirty",
         "lastModified": 1710463793,
-        "narHash": "sha256-oPkP0tg5b/JABhAbXIXfXlqaI/zwYvo+G1YzAfMSvys=",
+        "narHash": "sha256-1B2P9UafIAD55A2qmSPcIkAo/Kqt2gk0P4a8vJJs+KI=",
         "type": "git",
         "url": "file:///Users/jloos/Developer/freelance-copilot/haskell-nix"
       },
