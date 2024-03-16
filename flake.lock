@@ -187,6 +187,24 @@
         "type": "github"
       }
     },
+    "flake-utils_2": {
+      "inputs": {
+        "systems": "systems_2"
+      },
+      "locked": {
+        "lastModified": 1694529238,
+        "narHash": "sha256-zsNZZGTGnMOf9YpHKJqMSsa0dXbfmxeoJ7xHlrt+xmY=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "ff7b65b44d01cf9ba6a71320833626af21126384",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
     "ghc-8.6.5-iohk": {
       "flake": false,
       "locked": {
@@ -318,14 +336,17 @@
         "stackage": "stackage"
       },
       "locked": {
-        "lastModified": 1710473078,
-        "narHash": "sha256-MrUegWPs1XbIS+IPFlwFJZZoG5TqlkOSbnq7I/HQsFs=",
-        "path": "/Users/jloos/Developer/freelance-copilot/haskell-nix",
-        "type": "path"
+        "lastModified": 1710463793,
+        "narHash": "sha256-NmmWYOtJSlbC1i1h0k2H423PCCnR+gKQ5JaZbsWzvFs=",
+        "owner": "input-output-hk",
+        "repo": "haskell.nix",
+        "rev": "663345afcc9c6b077f95d006d60a5c136e8ee914",
+        "type": "github"
       },
       "original": {
-        "path": "/Users/jloos/Developer/freelance-copilot/haskell-nix",
-        "type": "path"
+        "owner": "input-output-hk",
+        "repo": "haskell.nix",
+        "type": "github"
       }
     },
     "hls-1.10": {
@@ -535,6 +556,21 @@
         "type": "github"
       }
     },
+    "mk-shell-bin": {
+      "locked": {
+        "lastModified": 1677004959,
+        "narHash": "sha256-/uEkr1UkJrh11vD02aqufCxtbF5YnhRTIKlx5kyvf+I=",
+        "owner": "rrbutani",
+        "repo": "nix-mk-shell-bin",
+        "rev": "ff5d8bd4d68a347be5042e2f16caee391cd75887",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rrbutani",
+        "repo": "nix-mk-shell-bin",
+        "type": "github"
+      }
+    },
     "nix": {
       "inputs": {
         "lowdown-src": "lowdown-src",
@@ -573,6 +609,27 @@
         "owner": "input-output-hk",
         "ref": "nix",
         "repo": "haskell-nix-example",
+        "type": "github"
+      }
+    },
+    "nix2container": {
+      "inputs": {
+        "flake-utils": "flake-utils_2",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1708764364,
+        "narHash": "sha256-+pOtDvmuVTg0Gi58hKDUyrNla5NbyUvt3Xs3gLR0Fws=",
+        "owner": "nlewo",
+        "repo": "nix2container",
+        "rev": "c891f90d2e3c48a6b33466c96e4851e0fc0cf455",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nlewo",
+        "repo": "nix2container",
         "type": "github"
       }
     },
@@ -825,6 +882,20 @@
     },
     "nixpkgs_3": {
       "locked": {
+        "lastModified": 1710503106,
+        "narHash": "sha256-WQenjcuNH9cnEYqh/PFxpmjK9PQnEPGt1Z7TCfYBhXs=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "b1d47989352fcb722a1f19295a9461ed1ef8435a",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_4": {
+      "locked": {
         "lastModified": 1708475490,
         "narHash": "sha256-g1v0TsWBQPX97ziznfJdWhgMyMGtoBFs102xSYO4syU=",
         "owner": "nixos",
@@ -890,10 +961,9 @@
         "flake-parts": "flake-parts",
         "flake-root": "flake-root",
         "haskell-nix": "haskell-nix",
-        "nixpkgs": [
-          "haskell-nix",
-          "nixpkgs-unstable"
-        ],
+        "mk-shell-bin": "mk-shell-bin",
+        "nix2container": "nix2container",
+        "nixpkgs": "nixpkgs_3",
         "treefmt-nix": "treefmt-nix"
       }
     },
@@ -928,9 +998,24 @@
         "type": "github"
       }
     },
+    "systems_2": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
     "treefmt-nix": {
       "inputs": {
-        "nixpkgs": "nixpkgs_3"
+        "nixpkgs": "nixpkgs_4"
       },
       "locked": {
         "lastModified": 1710278050,
