@@ -39,6 +39,13 @@ in
 
       devShells.dev = project.shellFor {
         withHoogle = false;
+        tools = {
+          cabal = "latest";
+          hlint = "3.6.1"; # compatible with ghc928
+          haskell-language-server = "latest";
+          ghcid = "latest";
+          fourmolu = "0.14.0.0"; # compatible with ghc928
+        };
       };
 
     };

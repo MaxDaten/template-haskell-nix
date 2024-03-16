@@ -63,11 +63,6 @@
                 self'.devShells.dev.propagatedBuildInputs ++
                 self'.devShells.dev.propagatedNativeBuildInputs ++
                 [
-                  pkgs.haskellPackages.cabal-install
-                  pkgs.haskellPackages.haskell-language-server
-                  pkgs.haskellPackages.ghcid
-                  pkgs.haskellPackages.fourmolu
-
                   config.treefmt.build.wrapper
                 ] ++ lib.attrValues config.treefmt.build.programs;
 
