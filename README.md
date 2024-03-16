@@ -17,6 +17,20 @@ For Haskell development, it uses:
 * [hlint](https://github.com/ndmitchell/hlint) to lint the code.
 * [fourmolu](https://fourmolu.github.io/) to format the code.
 
+## Directory Structure
+
+```plaintext
+.
+├── app # Application source code
+│   └── Main.hs
+├── cabal.project
+├── flake.nix       # Nix flake with devenv, packages, checks and apps
+├── fourmolu.yaml   # Fourmolu configuration
+├── myhaskell.cabal # Cabal file
+├── myhaskell.nix   # Nix file the haskell project
+└── treefmt.nix     # Formatting tools for the whole project
+```
+
 ## Usage
 
 With direnv installed, run `direnv allow` to set up the environment or run `nix develop` to
