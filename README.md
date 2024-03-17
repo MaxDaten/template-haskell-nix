@@ -61,7 +61,7 @@ cabal build myhaskell
 Run compiled module via flake:
 
 ```sh
-$ nix run .#myhaskell
+$ nix run
 Hello, Haskell!
 ```
 
