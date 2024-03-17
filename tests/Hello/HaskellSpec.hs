@@ -5,6 +5,6 @@ import Test.Hspec
 
 spec :: Spec
 spec = do
-    describe "helloHaskell" $ do
-        it "returns 'Hello Python'" $ do
-            helloHaskell `shouldBe` "Hello, Haskell!"
+  describe "helloHaskell" $ do
+    it "returns 'Hello Python'" $ do
+      helloHaskell `shouldBe` "Hello, Haskell!"

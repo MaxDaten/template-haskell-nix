@@ -1,6 +1,6 @@
 # Generate: https://fourmolu.github.io/config/
 # Number of spaces per indentation step
-indentation: 4
+indentation: 2
 
 # Max line length for automatic line breaking
 column-limit: none
@@ -15,7 +15,7 @@ comma-style: leading
 import-export-style: diff-friendly
 
 # Whether to full-indent or half-indent 'where' bindings past the preceding body
-indent-wheres: false
+indent-wheres: true
 
 # Whether to leave a space before an opening record brace
 record-brace-space: false
