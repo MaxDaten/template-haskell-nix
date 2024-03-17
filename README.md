@@ -21,8 +21,11 @@ For Haskell development, it uses:
 
 ```plaintext
 .
-├── app # Application source code
+├── app # Executable source code
 │   └── Main.hs
+├── src # Core source code
+│   └── Hello
+│       └── Haskell.hs
 ├── cabal.project
 ├── flake.nix       # Nix flake with devenv, packages, checks and apps
 ├── fourmolu.yaml   # Fourmolu configuration

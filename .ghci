@@ -1,3 +1,2 @@
 :set -fwarn-unused-binds -fwarn-unused-imports
-:set -iapp
-:load Main
+:set -iapp -isrc

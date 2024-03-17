@@ -1,4 +1,4 @@
 --command=cabal repl
 --verbose
---test=Main.main
+--test=helloHaskell
 --reload=myhaskell.cabal,cabal.project

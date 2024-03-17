@@ -55,6 +55,22 @@ extra-doc-files: CHANGELOG.md
 common warnings
   ghc-options: -Wall
 
+library hello-haskell
+  -- Import common warning flags.
+  import:           warnings
+
+  -- The .hs or .lhs file containing the top-level module of the library.
+  exposed-modules:  Hello.Haskell
+
+  -- Other library packages from which modules are imported.
+  build-depends:    base >=4.7 && <5
+
+  -- Directories containing source files.
+  hs-source-dirs:   src
+
+  -- Base language which the package is written in.
+  default-language: GHC2021
+
 executable myhaskell
   -- Import common warning flags.
   import:           warnings
@@ -69,7 +85,9 @@ executable myhaskell
   -- other-extensions:
 
   -- Other library packages from which modules are imported.
-  build-depends:    base >=4.7 && <5
+  build-depends:
+    , base
+    , myhaskell:hello-haskell
 
   -- Directories containing source files.
   hs-source-dirs:   app
