@@ -54,8 +54,8 @@ devenv up dev
 Using cabal:
 
 ```sh
-cabal new-repl myhaskell:exe:myhaskell
-cabal new-build myhaskell
+cabal repl myhaskell:exe:myhaskell
+cabal build myhaskell
 ```
 
 Run compiled module via flake:
