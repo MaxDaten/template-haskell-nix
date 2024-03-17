@@ -16,6 +16,7 @@ For Haskell development, it uses:
 * [ghcid](https://github.com/ndmitchell/ghcid) to run a development server.
 * [hlint](https://github.com/ndmitchell/hlint) to lint the code.
 * [fourmolu](https://fourmolu.github.io/) to format the code.
+* [haskell-language-server](https://github.com/haskell/haskell-language-server) to provide language server protocol support for your favorite editor.
 
 ## Directory Structure
 
