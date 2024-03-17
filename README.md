@@ -26,6 +26,10 @@ For Haskell development, it uses:
 ├── src # Core source code
 │   └── Hello
 │       └── Haskell.hs
+├── tests # Test source code
+│   ├── Hello
+│   │   └── HaskellSpec.hs
+│   └── Spec.hs # Utilize hspec-discover to discover all tests ending with Spec.hs and exporting spec :: Spec
 ├── cabal.project
 ├── flake.nix       # Nix flake with devenv, packages, checks and apps
 ├── fourmolu.yaml   # Fourmolu configuration
@@ -41,10 +45,10 @@ enter development shell manually.
 
 ## Development
 
-Run ghcid:
+Run ghcid, continuous compilation and testing of the code:
 
 ```sh
-devenv up ghcid
+devenv up dev
 ```
 
 Using cabal:
